@@ -33,7 +33,7 @@ After starting the container you should be able to access the frontend using  [l
 
 If you want to stop the containers use:
 
-docker-compose down
+```docker-compose down```
 
 ## Demo and Testing with geojson.io
 In this project, we utilized GeoJSON, a widely recognized format for encoding a variety of geographic data structures, to validate the precision of mapped coordinates in Graz. This process ensured that all spatial data conformed to real-world geographic positions, enhancing the reliability and usability of our mapping application. By leveraging GeoJSON's capabilities, we were able to efficiently validate and confirm the accuracy of our geospatial information.
