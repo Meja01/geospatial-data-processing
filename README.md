@@ -40,3 +40,72 @@ In this project, we utilized GeoJSON, a widely recognized format for encoding a 
 
 
 ## Introduction Screen ![Introduction Screen](/images/grazcordinates.png)
+
+## API Request Example
+GET http://localhost:8010/amenities?point.x=15.44679&point.y=47.06646&point.d=100&take=2&amenity=restaurant
+
+{
+	"entries": [
+		{
+			"name": "Athen",
+			"id": 291464594,
+			"geom": {
+				"type": "Point",
+				"coordinates": [15.446455, 47.066807],
+				"crs": {"type": "name", "properties": {"name": "EPSG:0"}}
+			},
+			"tags": {
+				"note": "Tür zum Raucherbereich stand ständig offen, deshalb 'separated'.",
+				"wheelchair": "no",
+				"amenity": "restaurant",
+				"addr:country": "AT",
+				"check_date:opening_hours": "2023-04-26",
+				"cuisine": "greek",
+				"contact:email": "restaurant.athen1992@gmail.com",
+				"addr:postcode": "8010",
+				"addr:city": "Graz",
+				"diet:vegetarian": "yes",
+				"addr:housenumber": "9",
+				"contact:phone": "+43 316 816111",
+				"indoor_seating": "yes",
+				"smoking": "separated",
+				"opening_hours": "Mo-Sa 11:00-24:00; PH,Su 17:00-24:00",
+				"addr:street": "Schlögelgasse",
+				"outdoor_seating": "no",
+				"contact:website": "https://restaurant-athen-graz.eatbu.com/"
+			},
+			"type": "restaurant"
+		},
+		{
+			"name": "Dim Sum",
+			"id": 1618928383,
+			"geom": {
+				"type": "Point",
+				"coordinates": [15.447004, 47.06662],
+				"crs": {"type": "name", "properties": {"name": "EPSG:0"}}
+			},
+			"tags": {
+				"amenity": "restaurant",
+				"addr:country": "AT",
+				"cuisine": "asian",
+				"addr:postcode": "8010",
+				"takeaway": "yes",
+				"addr:city": "Graz",
+				"addr:housenumber": "2",
+				"indoor_seating": "yes",
+				"smoking": "separated",
+				"opening_hours": "Tu-Fr 11:00-15:00,17:00-22:00; Sa,Su 11:00-22:00",
+				"addr:street": "Dietrichsteinplatz",
+				"outdoor_seating": "no"
+			},
+			"type": "restaurant"
+		}
+	],
+	"paging": {
+		"skip": 0,
+		"take": 2,
+		"total": 3
+	}
+}
+
+
