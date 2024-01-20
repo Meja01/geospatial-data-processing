@@ -37,3 +37,6 @@ docker-compose down
 
 ## Demo and Testing with geojson.io
 In this project, we utilized GeoJSON, a widely recognized format for encoding a variety of geographic data structures, to validate the precision of mapped coordinates in Graz. This process ensured that all spatial data conformed to real-world geographic positions, enhancing the reliability and usability of our mapping application. By leveraging GeoJSON's capabilities, we were able to efficiently validate and confirm the accuracy of our geospatial information.
+
+
+## Introduction Screen ![Introduction Screen](/images/grazcordinates.png)
