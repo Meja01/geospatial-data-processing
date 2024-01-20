@@ -25,10 +25,10 @@ Properly set up Maven dependencies and projects, through which all necessary plu
 The provided Docker system allows you to build Backend and Middleware.
 
 First, make sure that you have both docker and docker-compose installed (if you are on Windows, we recommend using WSL2). Afterwards, simply execute the following in your repository root:
-./docker/build_docker.sh && docker-compose up -d
+```./docker/build_docker.sh && docker-compose up -d```
 This should start and run your code in a docker container, including the frontend. You can also omit the -d flag to stay attached to all containers and stop them with CTRL+C.
 
-After starting the container you should be able to access the frontend using  [localhost:8042](localhost:8042). Please not that to make the request work within a browser you have to add CORS-headers to the controller methods using the following annotation:
+After starting the container you should be able to access the frontend using  [```localhost:8042```](localhost:8042). Please not that to make the request work within a browser you have to add CORS-headers to the controller methods using the following annotation:
 @CrossOrigin(origins = "*")
 
 If you want to stop the containers use:
