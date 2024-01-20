@@ -42,8 +42,8 @@ In this project, we utilized GeoJSON, a widely recognized format for encoding a 
 ## Introduction Screen ![Introduction Screen](/images/grazcordinates.png)
 
 ## API Request Example
-GET http://localhost:8010/amenities?point.x=15.44679&point.y=47.06646&point.d=100&take=2&amenity=restaurant
-
+```GET http://localhost:8010/amenities?point.x=15.44679&point.y=47.06646&point.d=100&take=2&amenity=restaurant```
+```
 {
 	"entries": [
 		{
@@ -107,5 +107,6 @@ GET http://localhost:8010/amenities?point.x=15.44679&point.y=47.06646&point.d=10
 		"total": 3
 	}
 }
+```
 
 
