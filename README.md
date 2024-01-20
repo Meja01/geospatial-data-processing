@@ -4,8 +4,8 @@
 This project was developed as part of the Objektorientierte Programmierung 2 at TU Graz, under the guidance of Houska Peter.
 
 ## Contributors
-- Faris Mujcinagic [(@fmujcinagic)](https://github.com/fmujcinagic)
 - Fedja Mulabegovic [(@fedjamulabegovic)](https://github.com/fedjamulabegovic)
+- Faris Mujcinagic [(@fmujcinagic)](https://github.com/fmujcinagic)
 - Milan Mejic
 
 # Overview
