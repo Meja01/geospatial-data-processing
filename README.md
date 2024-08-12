@@ -6,7 +6,7 @@ This project was developed as part of the Objektorientierte Programmierung 2 at 
 ## Contributors
 - Fedja Mulabegovic [(@fedjamulabegovic)](https://github.com/fedjamulabegovic)
 - Faris Mujcinagic [(@fmujcinagic)](https://github.com/fmujcinagic)
-- Milan Mejic
+- Milan Mejic [(@Meja01)](https://github.com/Meja01)
 
 # Overview
 
